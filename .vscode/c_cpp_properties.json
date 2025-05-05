@@ -1,0 +1,18 @@
+{
+    "configurations": [
+      {
+        "name": "Linux",
+        "includePath": [
+          "${workspaceFolder}/**",
+          "/usr/include",
+          "/usr/lib/x86_64-linux-gnu/openmpi/include"  // <-- Replace this with your actual path
+        ],
+        "defines": [],
+        "compilerPath": "/usr/bin/mpicc",
+        "cStandard": "c11",
+        "intelliSenseMode": "linux-gcc-x64"
+      }
+    ],
+    "version": 4
+  }
+  
